@@ -41,7 +41,7 @@ Phase 2: JavaScript ES6+, DOM API, Local Storage
 - Name: Navneet Kumar
 - Enrollment: 2501010298
 - Institution: Newton School of Technology
-- Mentor: Narendra Sir
+- Mentor:  Mohd. Zakir Sir
 
 ## 📞 Contact
 
