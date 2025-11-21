@@ -8,11 +8,13 @@ A comprehensive healthcare platform built for the SNW Capstone Project at Newton
 ## ✨ Features
 
 ### Phase 1: Static Website (HTML & CSS)
-- ✅ 6 professional pages with semantic HTML5
-- ✅ Responsive mobile-first design
-- ✅ Modern CSS with Grid & Flexbox
-- ✅ Professional healthcare branding
-- ✅ WCAG accessibility standards
+- ✅ Single-page layout with 5 major sections (Home, About, Services, Doctors, Contact)
+- ✅ Fully responsive mobile-first design
+- ✅ Built using modern CSS (Flexbox + Grid)
+- ✅ Clean and professional healthcare branding
+- ✅ CSS variables for global theme control
+- ✅ SEO-friendly structure (proper headings + meta tags)
+- ✅ Simple, accessible UI with semantic HTML5
 
 ### Phase 2: Dynamic Website (JavaScript)
 - 🔄 Interactive appointment booking
@@ -22,14 +24,25 @@ A comprehensive healthcare platform built for the SNW Capstone Project at Newton
 - 🔄 Local storage support
 - 🔄 Dark mode toggle
 
-## 📄 Pages (6 Total)
+## 📄 Pages (6 Total--implemented on a single page)
 
-1. Homepage - Hero section, statistics, services
-2. About Us - Team profiles & credentials
-3. Services - 6 medical services
-4. Find a Doctor - Doctor directory
-5. Contact Us - Contact form & info
-6. Resources - FAQs & health tips
+1. Homepage – Hero banner with headline, CTA and the Book Now form (header section #home).
+Includes the main call-to-action and booking form used to capture appointments.
+
+2. About Us – Clinic description and mission with an illustrative image (section #about).
+Explains who you are and what you offer.
+
+3. Services – Services grid with service cards and hover interactions (section #service).
+Shows service offerings like Laboratory Test, Health Check, Dentistry.
+
+4. Why Choose Us – Feature grid highlighting strengths (section #blog in your HTML).
+Highlights ICU, ambulance, medical & surgical care and other selling points.
+
+5. Find a Doctor – Doctors directory presented as a responsive card grid (section #pages).
+Displays specialist cards (name, specialty, photo) — ready for Phase 2 filtering/booking.
+
+6. Contact & Resources – Footer with contact details, quick links and FAQs (footer + FAQ section).
+Contains contact email/phone, location, useful links and FAQ entries for users.
 
 ## 🛠️ Tech Stack
 
