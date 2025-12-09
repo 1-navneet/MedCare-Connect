@@ -539,3 +539,92 @@ header {
         gap: 1rem;
     }
 }
+body.dark-mode {
+    --bg-color: #1e1e1e;
+    --text-dark: #ffffff;
+    --text-light: #d1d1d1;
+    --card-bg: #2a2a2a;
+    --primary-color-light: #2f4947;
+    --footer-text: #0b2c2c;
+}
+
+
+body.dark-mode {
+    background-color: var(--bg-color) !important;
+    color: var(--text-dark) !important;
+}
+
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4 {
+    color: var(--text-dark) !important;
+}
+
+
+body.dark-mode p {
+    color: var(--text-light) !important;
+}
+
+
+body.dark-mode .service__card,
+body.dark-mode .doctors__card,
+body.dark-mode .header__form form {
+    background-color: var(--card-bg) !important;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5) !important;
+}
+
+
+body.dark-mode .service__card h4,
+body.dark-mode .doctors__card h4 {
+    color: #ffffff !important;
+}
+
+
+body.dark-mode .service__card a,
+body.dark-mode .doctors__card a {
+    color: #4fe6c9 !important;
+}
+
+
+body.dark-mode .why__content h2,
+body.dark-mode .why__grid h4,
+body.dark-mode .why__grid p {
+    color: var(--text-dark) !important;
+}
+
+
+body.dark-mode .nav__logo,
+body.dark-mode .nav__links a {
+    color: var(--text-dark) !important;
+}
+
+
+body.dark-mode .footer__col h3,
+body.dark-mode .footer__col h4,
+body.dark-mode .footer__col p {
+    color: #ffffff !important;
+}
+
+#DarkModeBtn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 8px 16px;
+  background: #12ac8e; 
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.25s ease;
+}
+
+
+body.dark-mode #DarkModeBtn {
+  background: #000000;   
+  color: #ffffff !important; 
+  border: 1px solid #ffffff55;
+}
+
