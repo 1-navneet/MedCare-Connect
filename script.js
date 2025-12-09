@@ -9,6 +9,7 @@ btn.addEventListener("click", () => {
         btn.textContent = "Dark Mode";    
     }
 });
+ 
 document.querySelectorAll('.nav__links a').forEach(link => {
   link.addEventListener("click", function(e) {
     e.preventDefault();
