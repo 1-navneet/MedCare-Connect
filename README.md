@@ -17,11 +17,7 @@ A comprehensive healthcare platform built for the SNW Capstone Project at Newton
 - ✅ Simple, accessible UI with semantic HTML5
 
 ### Phase 2: Dynamic Website (JavaScript)
-- 🔄 Interactive appointment booking
-- 🔄 Doctor search & filtering
-- 🔄 Form validation
-- 🔄 Testimonials carousel
-- 🔄 Local storage support
+- 🔄 Smooth Scroll Navigation
 - 🔄 Dark mode toggle
 
 ## 📄 Pages (6 Total--implemented on a single page)
@@ -33,13 +29,13 @@ Includes the main call-to-action and booking form used to capture appointments.
 Explains who you are and what you offer.
 
 3. Services – Services grid with service cards and hover interactions (section #service).
-Shows service offerings like Laboratory Test, Health Check, Dentistry.
 
-4. Why Choose Us – Feature grid highlighting strengths (section #blog in your HTML).
-Highlights ICU, ambulance, medical & surgical care and other selling points.
+
+4. Why Choose Us – Feature grid highlighting strengths.
+
 
 5. Find a Doctor – Doctors directory presented as a responsive card grid (section #pages).
-Displays specialist cards (name, specialty, photo) — ready for Phase 2 filtering/booking.
+Displays specialist cards (name, specialty, photo) .
 
 6. Contact & Resources – Footer with contact details, quick links and FAQs (footer + FAQ section).
 Contains contact email/phone, location, useful links and FAQ entries for users.
