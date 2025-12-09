@@ -510,6 +510,19 @@ header {
         flex-direction: column;
     }
 }
+.scroll-top-btn {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  padding: 10px 15px;
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
+
 
 @media (width < 600px) {
     .service__header {
